@@ -1,6 +1,7 @@
 package ow2;
 public class Main {
- public static void Main(String[] args) {
- new Hello().say();
+ public static void main(String[] args) {
+ Hello h = new Hello();
+ h.say();
  }
 }
